@@ -44,6 +44,8 @@ class ViewController: UIViewController {
         
         self.navigationController?.navigationBar.backgroundColor = UIColor.init(named: "colorMain")
         self.navigationController?.navigationBar.topItem?.title = "title".localized
+        
+        SettingConst.getScreenLock()
     }
     
     override func viewWillAppear(_ animated: Bool) {

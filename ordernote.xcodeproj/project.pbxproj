@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57406B7A22FD4D2300F825E8 /* ChangePasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57406B7922FD4D2300F825E8 /* ChangePasswordController.swift */; };
 		57549F9D22FA60EC0067B662 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57549F9C22FA60EC0067B662 /* Const.swift */; };
 		57549FA022FA65F70067B662 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57549FA222FA65F70067B662 /* Localizable.strings */; };
 		57549FA522FA666A0067B662 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57549FA422FA666A0067B662 /* StringExt.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57406B7922FD4D2300F825E8 /* ChangePasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordController.swift; sourceTree = "<group>"; };
 		57549F9C22FA60EC0067B662 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		57549FA122FA65F70067B662 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		57549FA422FA666A0067B662 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				57549FAA22FAA8870067B662 /* SettingController.swift */,
 				57549FAC22FAC1260067B662 /* OrderController.swift */,
 				57549FAE22FAC14E0067B662 /* CustomerController.swift */,
+				57406B7922FD4D2300F825E8 /* ChangePasswordController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57406B7A22FD4D2300F825E8 /* ChangePasswordController.swift in Sources */,
 				57F39AA722F9258C00873337 /* ViewController.swift in Sources */,
 				57F39AA522F9258C00873337 /* AppDelegate.swift in Sources */,
 				57F39AFD22F9695C00873337 /* PasswordController.swift in Sources */,
