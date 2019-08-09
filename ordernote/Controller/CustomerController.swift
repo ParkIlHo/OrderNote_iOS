@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import UIKit
+
+class CustomerController: UIViewController {
+    override func viewDidLoad() {
+        self.navigationController?.navigationBar.tintColor = .black
+        self.navigationController?.navigationBar.topItem?.title = "title_customer".localized
+    }
+}

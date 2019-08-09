@@ -28,6 +28,7 @@ class PasswordController: UIViewController, UITextFieldDelegate {
         if(curPw == inputPw) {
             self.navigationController?.popViewController(animated: true)
         } else {
+            showToast(message: "password_error".localized)
             print("password_error".localized)
         }
     }

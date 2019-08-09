@@ -6,4 +6,11 @@
 //  Copyright © 2019 박일호. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class SettingController: UIViewController {
+    override func viewDidLoad() {
+        self.navigationController?.navigationBar.tintColor = .black
+        self.navigationController?.navigationBar.topItem?.title = "setting".localized
+    }
+}

@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct Const {
+    static let PASSWORD_DIGIT_COUNT = 4
+    
+    static let KEY_PASSWORD = "ordernote_password"
+}
