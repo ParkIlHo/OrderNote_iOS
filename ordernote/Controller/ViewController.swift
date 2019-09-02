@@ -24,12 +24,13 @@ class ViewController: UIViewController {
         switch id {
         case "btn_order":
             showToast(message: "go order")
+//            showAlert(title: "test", msg: "go order", confirmBtnString: "YES", cancelBtnString: "NO", confirmHandler: confirmHandler(alert:), cancelHandler: nil)
             let order = self.storyboard?.instantiateViewController(withIdentifier: "OrderController") as! UIViewController
             self.navigationController?.pushViewController(order, animated: true)
         case "btn_customer":
             showToast(message: "go customer")
-            let customer = self.storyboard?.instantiateViewController(withIdentifier: "CustomerController") as! UIViewController
-            self.navigationController?.pushViewController(customer, animated: true)
+//            let customer = self.storyboard?.instantiateViewController(withIdentifier: "CustomerController") as! UIViewController
+//            self.navigationController?.pushViewController(customer, animated: true)
         default:
             print("default")
         }
@@ -41,17 +42,23 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("testtesttest")
-        
+
         self.navigationController?.navigationBar.backgroundColor = UIColor.init(named: "colorMain")
         self.navigationController?.navigationBar.topItem?.title = "title".localized
         
-        SettingConst.getScreenLock()
+        let password = self.storyboard?.instantiateViewController(withIdentifier: "PasswordController") as! UIViewController
+        self.navigationController?.pushViewController(password, animated: false)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.navigationBar.topItem?.title = "title".localized
     }
     
+    // UIAction Test code
+    func confirmHandler(alert: UIAlertAction!){
+        let order = self.storyboard?.instantiateViewController(withIdentifier: "OrderController") as! UIViewController
+        self.navigationController?.pushViewController(order, animated: true)
+    }
 
 }
 

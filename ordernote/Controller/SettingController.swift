@@ -32,9 +32,9 @@ class SettingController: UIViewController {
         case "password_change_btn":
             // password change popup
             let changePassword = self.storyboard?.instantiateViewController(withIdentifier: "changePassword")
-            changePassword?.modalPresentationStyle = UIModalPresentationStyle.overFullScreen
-//            changePassword?.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
-//            changePassword?.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+//            changePassword?.modalPresentationStyle = UIModalPresentationStyle.overFullScreen
+            changePassword?.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
+            changePassword?.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
             self.present(changePassword!, animated: true, completion: nil)
             break
         default:

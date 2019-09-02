@@ -25,6 +25,8 @@
 		57F39AC822F9258D00873337 /* ordernoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F39AC722F9258D00873337 /* ordernoteUITests.swift */; };
 		57F39AD922F925F800873337 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57F39ADB22F925F800873337 /* InfoPlist.strings */; };
 		57F39AFD22F9695C00873337 /* PasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F39AFC22F9695C00873337 /* PasswordController.swift */; };
+		57FE3673231D044000B2751E /* OrderNoteUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FE3672231D044000B2751E /* OrderNoteUIViewController.swift */; };
+		57FE3675231D08CF00B2751E /* UITextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FE3674231D08CF00B2751E /* UITextFieldExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		57F39ADA22F925F800873337 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57F39ADC22F925FD00873337 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57F39AFC22F9695C00873337 /* PasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordController.swift; sourceTree = "<group>"; };
+		57FE3672231D044000B2751E /* OrderNoteUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderNoteUIViewController.swift; sourceTree = "<group>"; };
+		57FE3674231D08CF00B2751E /* UITextFieldExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 			children = (
 				57549FA422FA666A0067B662 /* StringExt.swift */,
 				57549FA822FA68BA0067B662 /* UIViewControllerExt.swift */,
+				57FE3674231D08CF00B2751E /* UITextFieldExt.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 		57F39AA322F9258C00873337 /* ordernote */ = {
 			isa = PBXGroup;
 			children = (
+				57FE3671231D03FD00B2751E /* View */,
 				57549FA722FA68270067B662 /* Extention */,
 				57549FA622FA68110067B662 /* Controller */,
 				57F39AA422F9258C00873337 /* AppDelegate.swift */,
@@ -174,6 +180,14 @@
 				57F39AC922F9258D00873337 /* Info.plist */,
 			);
 			path = ordernoteUITests;
+			sourceTree = "<group>";
+		};
+		57FE3671231D03FD00B2751E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57FE3672231D044000B2751E /* OrderNoteUIViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,12 +329,14 @@
 				57F39AA522F9258C00873337 /* AppDelegate.swift in Sources */,
 				57F39AFD22F9695C00873337 /* PasswordController.swift in Sources */,
 				57549FAD22FAC1260067B662 /* OrderController.swift in Sources */,
+				57FE3673231D044000B2751E /* OrderNoteUIViewController.swift in Sources */,
 				57F39AAD22F9258C00873337 /* ordernote.xcdatamodeld in Sources */,
 				57549FAB22FAA8870067B662 /* SettingController.swift in Sources */,
 				57549FA522FA666A0067B662 /* StringExt.swift in Sources */,
 				57549FA922FA68BA0067B662 /* UIViewControllerExt.swift in Sources */,
 				57549F9D22FA60EC0067B662 /* Const.swift in Sources */,
 				57549FAF22FAC14E0067B662 /* CustomerController.swift in Sources */,
+				57FE3675231D08CF00B2751E /* UITextFieldExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

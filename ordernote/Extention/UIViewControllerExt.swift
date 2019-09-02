@@ -26,4 +26,18 @@ extension UIViewController {
             toastLabel.removeFromSuperview()
         })
     }
+    
+    func showAlert(title: String!, msg: String, confirmBtnString: String, cancelBtnString: String!, confirmHandler: ((UIAlertAction) -> Void)!, cancelHandler: ((UIAlertAction) -> Void)!) {
+        let alert = UIAlertController(title: title, message: msg, preferredStyle: .alert)
+        
+        if(cancelBtnString != nil) {
+            let cancel = UIAlertAction(title: cancelBtnString, style: .cancel, handler: cancelHandler)
+            alert.addAction(cancel)
+        }
+        
+        let confirm = UIAlertAction(title: confirmBtnString, style: .default, handler: confirmHandler)
+        alert.addAction(confirm)
+        
+        present(alert, animated: false, completion: nil)
+    }
 }
