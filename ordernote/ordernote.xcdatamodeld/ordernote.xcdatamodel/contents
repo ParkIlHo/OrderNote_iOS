@@ -3,7 +3,6 @@
     <entity name="Customer" representedClassName="Customer" syncable="YES" codeGenerationType="class">
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="index" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="mobile" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="other" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="tel" optional="YES" attributeType="String" syncable="YES"/>
@@ -13,6 +12,7 @@
         <attribute name="coast_price" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="content" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="content_other" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="index" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="mobile" optional="YES" attributeType="String" syncable="YES"/>
@@ -31,7 +31,7 @@
         <attribute name="transform" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Customer" positionX="-243.703125" positionY="-5.296875" width="128" height="133"/>
-        <element name="Order" positionX="-54" positionY="-9" width="128" height="343"/>
+        <element name="Customer" positionX="-243.703125" positionY="-5.296875" width="128" height="120"/>
+        <element name="Order" positionX="-54" positionY="-9" width="128" height="360"/>
     </elements>
 </model>

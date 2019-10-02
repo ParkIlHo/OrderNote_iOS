@@ -15,6 +15,7 @@
 		57549FAB22FAA8870067B662 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57549FAA22FAA8870067B662 /* SettingController.swift */; };
 		57549FAD22FAC1260067B662 /* OrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57549FAC22FAC1260067B662 /* OrderController.swift */; };
 		57549FAF22FAC14E0067B662 /* CustomerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57549FAE22FAC14E0067B662 /* CustomerController.swift */; };
+		57C9910F232F771C00C1558C /* AddCustomerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9910E232F771C00C1558C /* AddCustomerController.swift */; };
 		57F39AA522F9258C00873337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F39AA422F9258C00873337 /* AppDelegate.swift */; };
 		57F39AA722F9258C00873337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F39AA622F9258C00873337 /* ViewController.swift */; };
 		57F39AAA22F9258C00873337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F39AA822F9258C00873337 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 		57549FAA22FAA8870067B662 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		57549FAC22FAC1260067B662 /* OrderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderController.swift; sourceTree = "<group>"; };
 		57549FAE22FAC14E0067B662 /* CustomerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerController.swift; sourceTree = "<group>"; };
+		57C9910E232F771C00C1558C /* AddCustomerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomerController.swift; sourceTree = "<group>"; };
 		57F39AA122F9258C00873337 /* ordernote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ordernote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F39AA422F9258C00873337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57F39AA622F9258C00873337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				57549FAC22FAC1260067B662 /* OrderController.swift */,
 				57549FAE22FAC14E0067B662 /* CustomerController.swift */,
 				57406B7922FD4D2300F825E8 /* ChangePasswordController.swift */,
+				57C9910E232F771C00C1558C /* AddCustomerController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				57549F9D22FA60EC0067B662 /* Const.swift in Sources */,
 				57549FAF22FAC14E0067B662 /* CustomerController.swift in Sources */,
 				57FE3675231D08CF00B2751E /* UITextFieldExt.swift in Sources */,
+				57C9910F232F771C00C1558C /* AddCustomerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

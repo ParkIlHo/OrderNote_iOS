@@ -29,8 +29,8 @@ class ViewController: UIViewController {
             self.navigationController?.pushViewController(order, animated: true)
         case "btn_customer":
             showToast(message: "go customer")
-//            let customer = self.storyboard?.instantiateViewController(withIdentifier: "CustomerController") as! UIViewController
-//            self.navigationController?.pushViewController(customer, animated: true)
+            let customer = self.storyboard?.instantiateViewController(withIdentifier: "CustomerController") as! UIViewController
+            self.navigationController?.pushViewController(customer, animated: true)
         default:
             print("default")
         }
@@ -59,6 +59,5 @@ class ViewController: UIViewController {
         let order = self.storyboard?.instantiateViewController(withIdentifier: "OrderController") as! UIViewController
         self.navigationController?.pushViewController(order, animated: true)
     }
-
 }
 
