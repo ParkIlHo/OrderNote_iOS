@@ -7,6 +7,8 @@
 */
 
 "confirm" = "확인";
+"delete" = "삭제";
+"cancel" = "취소";
 
 "password_error" = "비밀번호가 틀렸습니다!!!!";
 "setting" = "설정";
@@ -19,3 +21,5 @@
 "setting_input_confirm_password" = "확인 비밀번호를 입력해 주세요.!!!";
 "setting_error_new_password" = "새 비밀번호와 확인 비밀번호가 일치하지 않습니다.";
 "setting_complete_password" = "비밀번호가 정상적으로 변경되었습니다.";
+
+"add_customer_require_check" = "필수 입력 사항을 확인해 주세요.";

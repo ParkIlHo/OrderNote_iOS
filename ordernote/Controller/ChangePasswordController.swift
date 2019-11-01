@@ -71,8 +71,8 @@ class ChangePasswordController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         currentPw.addDoneButtonToKeyBoard(myAction: #selector(self.currentPw.resignFirstResponder))
-        newPw.addDoneButtonToKeyBoard(myAction: #selector(self.currentPw.resignFirstResponder))
-        newConfirmPw.addDoneButtonToKeyBoard(myAction: #selector(self.currentPw.resignFirstResponder))
+        newPw.addDoneButtonToKeyBoard(myAction: #selector(self.newPw.resignFirstResponder))
+        newConfirmPw.addDoneButtonToKeyBoard(myAction: #selector(self.newConfirmPw.resignFirstResponder))
         
         currentPw.delegate = self
         newPw.delegate = self
