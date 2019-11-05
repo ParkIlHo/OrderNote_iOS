@@ -11,6 +11,7 @@
 		570649B1236AC3BA00E3917C /* Customer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570649AD236AC3BA00E3917C /* Customer+CoreDataProperties.swift */; };
 		570649B2236AC3BA00E3917C /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570649AE236AC3BA00E3917C /* Order+CoreDataClass.swift */; };
 		570649B3236AC3BA00E3917C /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570649AF236AC3BA00E3917C /* Order+CoreDataProperties.swift */; };
+		5737FFBB23715FFC006E2400 /* AddOrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5737FFBA23715FFC006E2400 /* AddOrderController.swift */; };
 		57406B7A22FD4D2300F825E8 /* ChangePasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57406B7922FD4D2300F825E8 /* ChangePasswordController.swift */; };
 		574981CC236BC72E007A6BDF /* CustomerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574981CB236BC72E007A6BDF /* CustomerTableCell.swift */; };
 		57549F9D22FA60EC0067B662 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57549F9C22FA60EC0067B662 /* Const.swift */; };
@@ -57,6 +58,7 @@
 		570649AD236AC3BA00E3917C /* Customer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Customer+CoreDataProperties.swift"; path = "ordernote/db/Customer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		570649AE236AC3BA00E3917C /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Order+CoreDataClass.swift"; path = "ordernote/db/Order+CoreDataClass.swift"; sourceTree = "<group>"; };
 		570649AF236AC3BA00E3917C /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Order+CoreDataProperties.swift"; path = "ordernote/db/Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5737FFBA23715FFC006E2400 /* AddOrderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderController.swift; sourceTree = "<group>"; };
 		57406B7922FD4D2300F825E8 /* ChangePasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordController.swift; sourceTree = "<group>"; };
 		574981CB236BC72E007A6BDF /* CustomerTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableCell.swift; sourceTree = "<group>"; };
 		57549F9C22FA60EC0067B662 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				57549FAE22FAC14E0067B662 /* CustomerController.swift */,
 				57406B7922FD4D2300F825E8 /* ChangePasswordController.swift */,
 				57C9910E232F771C00C1558C /* AddCustomerController.swift */,
+				5737FFBA23715FFC006E2400 /* AddOrderController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				570649B0236AC3BA00E3917C /* Customer+CoreDataClass.swift in Sources */,
 				57406B7A22FD4D2300F825E8 /* ChangePasswordController.swift in Sources */,
 				57F39AA722F9258C00873337 /* ViewController.swift in Sources */,
+				5737FFBB23715FFC006E2400 /* AddOrderController.swift in Sources */,
 				57F39AA522F9258C00873337 /* AppDelegate.swift in Sources */,
 				57F39AFD22F9695C00873337 /* PasswordController.swift in Sources */,
 				57549FAD22FAC1260067B662 /* OrderController.swift in Sources */,
